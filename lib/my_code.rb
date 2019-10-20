@@ -8,7 +8,7 @@ def map( arr )
   mapped_arr
 end
 
-def reduce( arr, starting_point = 0 )
+def reduce( arr, starting_point = nil )
   result = starting_point
   index = 0
   
